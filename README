@@ -1,0 +1,13 @@
+We show how to setup Ipython parallel in GWDG Clusters. 
+Adapted from [ipyparallel docs](https://ipyparallel.readthedocs.io/en/latest/process.html#using-ipcluster-in-pbs-mode).
+
+
+To setup, specify a profile name at `setup.sh`:
+```bash
+PROFILENAME=<chosen name>
+``` 
+
+Then run the shell script:
+```bash
+bash setup.sh
+```

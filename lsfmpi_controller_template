@@ -1,0 +1,7 @@
+#!/bin/bash
+#BSUB -J ipcontroller
+#BSUB -W 48:00
+#BSUB -R scratch
+#BSUB -o /scratch/dmanik/ipyparalleltmp/ipcontroller.%J
+#BSUB -q {queue}
+ipcontroller --profile-dir="{profile_dir}"
