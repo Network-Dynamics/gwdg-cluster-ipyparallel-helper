@@ -2,7 +2,7 @@
 #BSUB -J ipengine
 #BSUB -W 48:00
 #BSUB -R scratch
-#BSUB -o /scratch/dmanik/ipyparalleltmp/ipengine.%J
+#BSUB -o <SCRATCHDIR>/ipengine.%J
 #BSUB -n {n}
 #BSUB -q {queue}
 #BSUB -a openmpi
